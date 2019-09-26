@@ -54,6 +54,11 @@ bindsym $mod+Shift+l exec systemctl suspend
     # exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
     
+    # lock sway
+    # bindsym $mod+l exec swaylock -f -c 000000
+
+    # lock and suspend
+    # bindsym $mod+Shift+l exec systemctl suspend
 
 # Window movement
 bindsym $mod+Left focus left
@@ -116,8 +121,9 @@ bindsym $mod+Shift+Right move right
 
 # Status Bar:
 bar {
-  status_command i3status
+    swaybar_command waybar
 }
+
 exec mako
 hide_edge_borders both
 
