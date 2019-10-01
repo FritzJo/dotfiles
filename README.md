@@ -4,3 +4,5 @@ Collection of my most important configuration files
 This repository currently contains configs for:
 * neovim
 * sway
+* waybar
+* tmux
