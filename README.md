@@ -6,3 +6,4 @@ This repository currently contains configs for:
 * sway
 * waybar
 * tmux
+* neofetch
