@@ -7,3 +7,4 @@ This repository currently contains configs for:
 * waybar
 * tmux
 * neofetch
+* zsh
