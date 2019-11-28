@@ -1,6 +1,5 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'lervag/vimtex'
 Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
