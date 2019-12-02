@@ -8,6 +8,8 @@ This repository currently contains configs for:
 * tmux
 * neofetch
 * zsh
+* mako
+
 ## How to
 Inspired by this post on [HackerNews](https://news.ycombinator.com/item?id=11070797)
 ### Setup
