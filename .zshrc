@@ -121,6 +121,11 @@ source $ZSH/oh-my-zsh.sh
     fi
 }
 
+ccd() {
+    mkdir -p "$1"
+    cd "$1"
+}
+
 export EDITOR=nvim
 export SUDO_EDITOR=nvim
 autoload -U compinit && compinit
