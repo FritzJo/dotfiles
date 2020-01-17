@@ -125,9 +125,9 @@ export EDITOR=nvim
 export SUDO_EDITOR=nvim
 autoload -U compinit && compinit
 export MOZ_ENABLE_WAYLAND=1
-export QT_QPA_PLATFORM=wayland
+export QT_QPA_PLATFORM=xcb
 export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
-export JAVA_AWT_WM_NONREPARENTING=1
+export _JAVA_AWT_WM_NONREPARENTING=1
 export GOPATH=$HOME/Projects/Go
 
 alias vim="nvim"
