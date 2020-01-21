@@ -36,6 +36,11 @@ input "*" {
 
 bindsym $mod+l exec swaylock -f -c 000000
 bindsym $mod+Shift+l exec systemctl suspend
+
+# Window settings
+workspace_layout tabbed
+assign [class="thunderbird"] 2
+
 ### Key bindings
 # Basics:
     # start a terminal
@@ -73,9 +78,9 @@ bindsym $mod+Shift+Right move right
 
 # Workspaces:
     # switch to workspace
-    bindsym $mod+1 workspace 1
-    bindsym $mod+2 workspace 2
-    bindsym $mod+3 workspace 3
+    bindsym $mod+1 workspace number 1 Web 
+    bindsym $mod+2 workspace number 2 Mail
+    bindsym $mod+3 workspace number 3 Tools
     bindsym $mod+4 workspace 4
     bindsym $mod+5 workspace 5
     bindsym $mod+6 workspace 6
