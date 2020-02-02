@@ -9,6 +9,7 @@ This repository currently contains configs for:
 * neofetch
 * zsh
 * mako
+* imv
 
 ## How to
 Inspired by this post on [HackerNews](https://news.ycombinator.com/item?id=11070797)
