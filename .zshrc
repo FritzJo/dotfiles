@@ -137,5 +137,4 @@ export GOPATH=$HOME/Projects/Go
 
 alias vim="nvim"
 alias vi="nvim"
-alias ll="exa -lh"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
