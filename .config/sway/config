@@ -18,7 +18,7 @@ output * bg ~/Pictures/Wallpaper/arch.png fill
 ### Idle configuration
 # Example configuration:
 exec swayidle -w \
-         timeout 6000 'swaylock -f -c 000000' \
+         timeout 6000 'swaylock -f -l -i ~/Pictures/Wallpaper/arch.png' \
          timeout 600  'swaymsg "output * dpms off"' \
                resume 'swaymsg "output * dpms on"' \
          before-sleep 'swaylock -f -c 000000'
@@ -34,7 +34,7 @@ input "*" {
   xkb_options grp:alt_shift_toggle
 }
 
-bindsym $mod+l exec swaylock -f -c 000000
+bindsym $mod+l exec swaylock -f -l -i ~/Pictures/Wallpaper/arch.png #-c 000000
 bindsym $mod+Shift+l exec systemctl suspend
 
 # Window settings
