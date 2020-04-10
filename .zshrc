@@ -135,7 +135,7 @@ export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
 export _JAVA_AWT_WM_NONREPARENTING=1
 export GOPATH=$HOME/Projects/Go
 
-alias pl="pacman -Qq | fzf --preview 'pacman -Qil {}' --layout=reverse --bind 'enter:execute(pacman -Qil {} | less)'"
+alias pl="pacman -Qe | cut -d' ' -f1 | fzf --preview 'pacman -Qil {}' --layout=reverse --bind 'enter:execute(pacman -Qil {} | less)'"
 
 alias vim="nvim"
 alias vi="nvim"
