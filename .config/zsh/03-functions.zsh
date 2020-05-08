@@ -11,3 +11,9 @@ ccd() {
     cd "$1"
 }
 
+pd() {
+    while IFS= read -r line; do
+        n=$(pacman -Qi "$line" | grep Depends | cut -d: -f2 | wc -w)
+        echo "$line $n"
+    done < <( pacman -Qe | cut -d' ' -f1 )
+}
