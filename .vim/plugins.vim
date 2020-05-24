@@ -11,6 +11,7 @@ Plug 'cocopon/iceberg.vim'
 Plug 'dracula/vim'
 Plug 'jampow/vim-arc-dark-theme'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'ayu-theme/ayu-vim'
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
