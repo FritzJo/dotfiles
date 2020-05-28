@@ -90,9 +90,9 @@ map <leader>l :set list!<CR> " Toggle tabs and EOL
 
 " Color scheme (terminal)
 set t_Co=256
-set background=dark
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
+"set background=dark
+"let g:solarized_termcolors=256
+"let g:solarized_termtrans=1
 
 " ## Highlighting
 highlight LineNr ctermfg=grey
@@ -100,4 +100,4 @@ highlight LineNr ctermfg=grey
 so ~/.vim/plugins.vim
 map ; :Files<CR>
 map <C-o> :NERDTreeToggle<CR>
-colorscheme arc-dark
+colorscheme github

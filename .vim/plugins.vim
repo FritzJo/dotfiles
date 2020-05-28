@@ -6,12 +6,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-eunuch'
-Plug 'drewtempelmeyer/palenight.vim'
-Plug 'cocopon/iceberg.vim'
-Plug 'dracula/vim'
-Plug 'jampow/vim-arc-dark-theme'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'ayu-theme/ayu-vim'
+Plug 'acarapetis/vim-colors-github'
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
