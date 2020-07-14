@@ -79,9 +79,6 @@ plugins=(
     systemd
     tmux
     pass
-    zsh-completions
-    auto-notify
-    you-should-use
 )
 
 source $ZSH/oh-my-zsh.sh
