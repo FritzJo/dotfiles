@@ -5,3 +5,5 @@ alias vim="nvim"
 alias vi="nvim"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias battery='upower -d | grep percentage | head -n 1'
+alias ssh-on='sudo systemctl start sshd'
+alias ssh-off='sudo systemctl stop sshd'
