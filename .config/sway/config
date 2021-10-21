@@ -10,7 +10,7 @@ set $term kitty
 set $menu bemenu-run --nf "#dcdccc" 
 
 # Optional xWayland
-# xwayland disable
+xwayland disable
 
 ### Output configuration
 output * bg ~/Pictures/Wallpaper/arch.png fill
