@@ -1,0 +1,3 @@
+# exec program-here && sway '[app_id="program-here"]' move container to workspace 10
+exec gnome-terminal
+exec nextcloud
