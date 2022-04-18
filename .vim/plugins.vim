@@ -6,7 +6,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-eunuch'
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'ayu-theme/ayu-vim'
 Plug 'acarapetis/vim-colors-github'
 
