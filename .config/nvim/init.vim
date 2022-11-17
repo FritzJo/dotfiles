@@ -97,10 +97,5 @@ set t_Co=256
 " ## Highlighting
 highlight LineNr ctermfg=grey
 " ## Plugins
-so ~/.vim/plugins.vim
-map ; :Files<CR>
-map <C-o> :NERDTreeToggle<CR>
-"colorscheme github
+so ~/.config/nvim/plugins.vim
 
-
-so ~/.vim/plugins.vim
