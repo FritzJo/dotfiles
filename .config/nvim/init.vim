@@ -4,28 +4,19 @@ set nocompatible
 " Helps force plugins to load correctly when it is turned back on below
 filetype off
 
-" TODO: Load plugins here (pathogen or vundle)
-
 " Turn on syntax highlighting
 syntax on
 
 " For plugins to load correctly
 filetype plugin indent on
 
-" TODO: Pick a leader key
 " let mapleader = ","
 
 " Security
 set modelines=0
 
-" Show line numbers
-set number
-
 " Show file stats
 set ruler
-
-" Blink cursor on error instead of beeping (grr)
-"set visualbell
 
 " Encoding
 set encoding=utf-8
@@ -90,12 +81,12 @@ map <leader>l :set list!<CR> " Toggle tabs and EOL
 
 " Color scheme (terminal)
 set t_Co=256
-"set background=dark
-"let g:solarized_termcolors=256
-"let g:solarized_termtrans=1
 
-" ## Highlighting
-highlight LineNr ctermfg=grey
 " ## Plugins
 so ~/.config/nvim/plugins.vim
 
+" Show line numbers
+set number
+set cursorline
+hi CursorLine cterm=NONE guifg=NONE
+"set cursorlineopt=number
