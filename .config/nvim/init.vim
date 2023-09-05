@@ -10,7 +10,7 @@ syntax on
 " For plugins to load correctly
 filetype plugin indent on
 
-" let mapleader = ","
+let mapleader = ","
 
 " Security
 set modelines=0
@@ -42,7 +42,7 @@ runtime! macros/matchit.vim
 nnoremap j gj
 nnoremap k gk
 
-" Allow hidden buffers
+"Allow hidden buffers
 set hidden
 
 " Rendering
@@ -89,4 +89,5 @@ so ~/.config/nvim/plugins.vim
 set number
 set cursorline
 hi CursorLine cterm=NONE guifg=NONE
-"set cursorlineopt=number
+" set cursorlineopt=number
+
